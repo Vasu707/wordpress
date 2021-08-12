@@ -15,7 +15,6 @@ function registerNewsPostType() {
         "capability_type" => "post",
         "supports" => array(
             "title",
-            "custom-fields"
         )
     );
     register_post_type("fetch_posts", $args);
