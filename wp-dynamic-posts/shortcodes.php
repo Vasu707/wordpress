@@ -2,6 +2,7 @@
 
 function fetchPostsCB($attr)
   {
+    ob_start();
     if (!isset($attr['id']))
       {
         echo "ID is required";
